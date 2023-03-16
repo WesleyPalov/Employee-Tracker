@@ -49,7 +49,6 @@ const promptUser = () => {
                 'Add a role', 
                 'Add an employee', 
                 'Update an employee role',
-                'Update an employee manager',
                 "View employees by department",
                 'Delete a department',
                 'Delete a role',
@@ -89,11 +88,7 @@ const promptUser = () => {
         updateEmployee();
       }
 
-      if (choices === "Update an employee manager") {
-        updateManager();
-      }
-
-      if (choices === "View employees by department") {
+           if (choices === "View employees by department") {
         employeeDepartment();
       }
 
