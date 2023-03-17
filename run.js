@@ -120,13 +120,6 @@ showDepartments = () => {
     console.log('Showing all departments...\n');
   
     const sql = `SELECT department.id AS id, department.name AS department FROM department`; 
-  // Example for connection .query
-
-    // connection.query(sql, (err, rows) => {
-    //   if (err) throw err;
-    //   console.table(rows);
-    //    promptUser();
-    //});
 
 // Example for connection .promise().query
     connection.promise().query(sql).then(
@@ -136,6 +129,7 @@ showDepartments = () => {
          promptUser();
       });
   };
+  
   
   
 
