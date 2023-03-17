@@ -5,6 +5,9 @@ This application is a Company Employee Information Content Managment System (CMS
 
 # Enter npm start in to command line to start the application !!!
 
+## Link to video
+https://drive.google.com/file/d/1AvGHJOPNet5gRA_KkHlG3qXsWv3qoMMJ/view
+
 ## User Story
 
 ```md
